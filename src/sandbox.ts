@@ -12,9 +12,7 @@ console.log(arr)
 let ninja = {
     fname: "varun"
 }
-ninja["lname"] = "ffe"
-ninja["age"] = 30
-ninja["skilss"] = ["fighting", "killing"]
+
 
 console.log(ninja)
 
