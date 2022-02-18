@@ -1,20 +1,4 @@
-class Invoices {
-    // readonly client: string;
-    // private details: string;
-    // public amount: number
-
-    constructor(
-        readonly client: string,
-        private details: string,
-        public amount: number
-
-    ) { }
-
-    format() {
-        return `${this.client} owes ₹ ${this.amount} for ${this.details}`
-    }
-
-}
+import { Invoices } from "./classes/Invoices.js"
 
 const invOne = new Invoices("Thanos", "Swiping half universe", 1)
 const invTwo = new Invoices("Iron-Man", "bring the half swipe universe back", 100000000)
